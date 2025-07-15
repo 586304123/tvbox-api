@@ -1,0 +1,40 @@
+{
+  "site": [
+    {
+      "key": "tencent",
+      "name": "腾讯视频",
+      "type": 3,
+      "api": "https://raw.githubusercontent.com/你的用户名/tvbox-api/main/sources/tencent.json",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 0
+    },
+    {
+      "key": "youku",
+      "name": "优酷视频",
+      "type": 3,
+      "api": "https://raw.githubusercontent.com/你的用户名/tvbox-api/main/sources/youku.json",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 0
+    },
+    {
+      "key": "iqiyi",
+      "name": "爱奇艺视频",
+      "type": 3,
+      "api": "https://raw.githubusercontent.com/你的用户名/tvbox-api/main/sources/iqiyi.json",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 0
+    }
+  ],
+  "parses": [
+    {
+      "name": "通用解析",
+      "type": 0,
+      "url": "https://jx.hls.one/?url="
+    }
+  ],
+  "drives": [],
+  "spider": ""
+}
